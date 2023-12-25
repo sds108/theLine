@@ -13,3 +13,5 @@ Unfortunately, I am still working on a function that can accurately represent th
 However, I have made a quite functional (few hiccups to fix) Bezier Curve adjusting algorithm that will adjust the positioning of the characteristic point coordinates to maximize or minimize a chosen parameter (track time is the goal, but curvature and distance work). 
 
 So far, there is also a lot of redundant code in the main.cpp file and a lot of clean up is required. The computed coordinates of the characteristic points of the Bezier Curve are also saved to a text file, and the graphics are currently plotted using matplotlib in python (I will switch to SDL2 soon).
+
+![Example of Nearly Fully Working Minimization Algorithm](Near_Success.png)
